@@ -9,6 +9,12 @@
     <Authors>Vincent Qi</Authors>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Version>$(VersionPrefix)</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SamCommerce.Platform.Core" Version="1.0.3" />
+  </ItemGroup>
 
 </Project>
